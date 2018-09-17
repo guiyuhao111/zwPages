@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>后台管理</title>
+  <link rel="stylesheet" href="plugins/layui/css/layui.css">
+  <link rel="stylesheet" href="css/layui.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+  <style>
+	.list-title{background: #fff;height:78px;margin-left:14px;margin-bottom:10px;}
+	.list-title-l{height:78px;width:136px;background:#ecc244;text-align: center;}
+	.list-title-l span{display: block;color:#fff;}
+	.list-title-l img{margin-top:13px;}
+	.list-title-r{margin-left:10px;}
+	.list-title-r span{display: block;}
+	.list-title-r span:first-child{margin-top:15px;}
+	.list-title-r span:last-child{margin-top:8px;}
+</style>
+</head>
+<body style="background: #eaedf1">
+
+<div class="row">
+<div class="layui-col-md12">
+<div class="list-title">
+	<div class="list-title-l layui-col-md3 layui-col-sm3 layui-col-xs3">	
+		<img src="images/tongzhi.jpg" alt="">
+		<span>通知公告</span>	
+	</div>
+
+	<div class="list-title-r layui-col-md8 layui-col-sm9 layui-col-xs9">
+	<span>指挥中心管理员，欢迎进入系统</span>
+	<span>关于召开海曙区五届政协委员培训会的通知  2017-05-09 </span>		
+	</div>
+</div>
+  </div>
+</div>
+
+
+					
+			
+			<div class="admin-main">
+
+			<blockquote class="layui-elem-quote">
+				<a href="javascript:;" class="layui-btn layui-btn-small" id="add">
+					<i class="layui-icon">&#xe608;</i>新增
+				</a>
+				<a href="#" class="layui-btn layui-btn-small" id="import">
+					<i class="layui-icon">&#xe642;</i>修改
+				</a>
+				<a href="#" class="layui-btn layui-btn-small">
+					<i class="layui-icon">&#x1006;</i>删除
+				</a>
+				
+			</blockquote>
+			<fieldset class="layui-elem-field">
+				<legend>提案</legend>
+				<div class="layui-field-box">
+					<table class="site-table table-hover">
+						<thead>
+							<tr>
+								<th><input type="checkbox" id="selected-all"></th>
+								
+								<th>提案名称</th>
+								<th>来源</th>
+								<th>提案时间</th>				
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input type="checkbox"></td>
+						
+								<td>
+									<a href="/manage/article_edit_1">演示站提案办理协商“四见面”助推行政审批改革</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-06-17</td>
+								
+									<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+						
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								
+								<td>
+									<a href="/manage/article_edit_19">四届五次会议提案审查立案情况</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-03-09</td>
+								
+									<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+							
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+							
+								<td>
+									<a href="/manage/article_edit_8">海曙区政协四届四次会议以来提案审查立案情况</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-03-20</td>
+								
+									<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+						
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								
+								<td>
+									<a href="/manage/article_edit_4">四届四次会议关于提案收集情况的报告</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-03-05</td>
+								
+									<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+								
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								
+								<td>
+									<a href="/manage/article_edit_20">海曙区政协关于征集四届四次会议提案的通知</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-01-14</td>
+								
+								<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+							
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								
+								<td>
+									<a href="/manage/article_edit_23">区政协开展提案办理“回头看”走访督查活动</a>
+								</td>
+								<td>宁波海曙政协</td>
+
+								<td>2017-09-03</td>
+								
+								<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+								
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								
+								<td>
+									<a href="/manage/article_edit_22">区政协提案委、月湖联委会举行提案办理对接协商会</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-05-16</td>
+								
+								<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+								
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+							
+								<td>
+									<a href="/manage/article_edit_21">区政协四届三次会议以来（2014年）重点提案</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-05-06</td>
+								
+								<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+					
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								
+								<td>
+									<a href="/manage/article_edit_18">我区召开2014年建议提案办理工作会议</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-03-19</td>
+								
+								<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+								
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								
+								<td>
+									<a href="/manage/article_edit_17">海曙区政协四届三次会议以来提案审查立案情况</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-03-13</td>
+								
+								<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+								
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								
+								<td>
+									<a href="/manage/article_edit_16">DT03007轨道灯</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-05-29</td>
+								
+								<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+								
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								
+								<td>
+									<a href="/manage/article_edit_15">智能交互式路灯平台</a>
+								</td>
+								<td>宁波海曙政协</td>
+								<td>2017-04-28</td>
+								
+								<td style="text-align:center;"><a href="/manage/article_edit_8">编辑</a>
+									&nbsp;&nbsp;&nbsp;
+									<a href="javascript:;" data-id="8" data-opt="del">删除</a></td>
+						
+							</tr>
+						
+						</tbody>
+					</table>
+
+				</div>
+			</fieldset>
+			<div class="admin-table-page">
+				<div id="page" class="page">
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="plugins/layui/layui.js"></script>
+		<script>
+			layui.config({
+				base: 'plugins/layui/modules/'
+			});
+
+			layui.use(['icheck', 'laypage','layer'], function() {
+				var $ = layui.jquery,
+					laypage = layui.laypage,
+					layer = parent.layer === undefined ? layui.layer : parent.layer;
+				$('input').iCheck({
+					checkboxClass: 'icheckbox_flat-green'
+				});
+
+				//page
+				laypage({
+					cont: 'page',
+					pages: 25 //总页数
+						,
+					groups: 5 //连续显示分页数
+						,
+					jump: function(obj, first) {
+						//得到了当前页，用于向服务端请求对应数据
+						var curr = obj.curr;
+						if(!first) {
+							//layer.msg('第 '+ obj.curr +' 页');
+						}
+					}
+				});
+
+				$('#search').on('click', function() {
+					parent.layer.alert('你点击了搜索按钮')
+				});
+
+				$('#add').on('click', function() {
+					$.get('temp/edit-form.html', null, function(form) {
+						layer.open({
+							type: 1,
+							title: '添加表单',
+							content: form,
+							btn: ['保存', '取消'],
+							area: ['600px', '400px'],
+							maxmin: true,
+							yes: function(index) {
+								console.log(index);
+							},
+							full: function(elem) {
+								var win = window.top === window.self ? window : parent.window;
+								$(win).on('resize', function() {
+									var $this = $(this);
+									elem.width($this.width()).height($this.height()).css({
+										top: 0,
+										left: 0
+									});
+									elem.children('div.layui-layer-content').height($this.height() - 95);
+								});
+							}
+						});
+					});
+				});
+
+				$('#import').on('click', function() {
+					var that = this;
+					var index = layer.tips('只想提示地精准些', that,{tips: [1, 'white']});
+					$('#layui-layer'+index).children('div.layui-layer-content').css('color','#000000');
+				});
+
+				$('.site-table tbody tr').on('click', function(event) {
+					var $this = $(this);
+					var $input = $this.children('td').eq(0).find('input');
+					$input.on('ifChecked', function(e) {
+						$this.css('background-color', '#EEEEEE');
+					});
+					$input.on('ifUnchecked', function(e) {
+						$this.removeAttr('style');
+					});
+					$input.iCheck('toggle');
+				}).find('input').each(function() {
+					var $this = $(this);
+					$this.on('ifChecked', function(e) {
+						$this.parents('tr').css('background-color', '#EEEEEE');
+					});
+					$this.on('ifUnchecked', function(e) {
+						$this.parents('tr').removeAttr('style');
+					});
+				});
+				$('#selected-all').on('ifChanged', function(event) {
+					var $input = $('.site-table tbody tr td').find('input');
+					$input.iCheck(event.currentTarget.checked ? 'check' : 'uncheck');
+				});
+			});
+		</script>
+
+
+</body>
+<script src="plugins/layui/layui.js"></script>
+<script src="datas/nav.js"></script>
+<script src="js/index/index.js"></script>
+<script>
+var $ = layui.jquery;
+
+
+
+</script>
+</html>
+

@@ -1,0 +1,56 @@
+.admin-main{
+	margin: 15px;
+
+}
+.admin-main .layui-field-title .layui-field-box{
+	padding: 10px 30px;
+}
+.admin-main .layui-field-title .layui-field-box p{
+	padding: 5px 0;
+}
+
+a{text-decoration: none;color:#868383;}
+.layui-field-title{margin-top: 30px;}
+.layui-index { line-height: 50px;height:192px; text-align: left; box-shadow:2px 2px 10px #ccc;}
+.grid-demo-bg2{background-color: #49A761;}
+.grid-demo-bg3{background-color: #38814A;}
+.index-title{background: #f5f5f6;line-height: 64px;}
+.indexbox{background:#fff; line-height: 64px;}
+.indexbox1{background:#f5f5f6; line-height: 64px;}
+.indexbox2{background:#fff; line-height: 64px;}
+.indexbox a{margin-left: 12px;float:left;}
+.indexbox1 a{margin-left: 12px;float:left;}
+.indexbox2 a{margin-left: 10px;float:left;}
+.indexbox1 span{margin-left:98px;float:left;display: block;}
+.indexbox2 span{margin-left:98px;float:left;display: block;}
+.soso{float:right;margin-right:10px;margin-top:-40px;line-height: 50px;}
+.new{float:left;line-height: 50px;margin-top:24px;margin-left:10px;}
+.wy{margin-left:10px;position: relative;top:9px;margin-right:10px;}
+.indexbox-right{background: #fff;width:24%;float:right;}
+.indexbox-right span{background: red;line-height: 64px;display: block;text-align: center;color:#fff;}
+.indexbox-right p{line-height: 64px;padding:0;margin:0;}
+.indexbox-right a{margin-left:20px;}
+.indexbox-right-bg span{background: #e0a054;}
+.indexbox-right-tx{height:535px;}
+.indexbox-right-tx span{background:#434976; }
+.indexbox1-1 a{margin-left:10px;}
+.indexbox1{position: relative;}
+.indexbox1 span{position: absolute;right:40px;}
+.indexbox2{position: relative;}
+.indexbox2 span{position: absolute;right:40px;}
+.indexbox{position: relative;}
+.indexbox span{position: absolute;right:40px}
+.indexbox-right-tx p{position:relative;}
+q1{right: 20px; position:absolute;}
+.right-line{width:90%;display: block;margin:0 auto;}
+.indexbox-right-xz p{position: relative;}
+.indexbox-right-xz img{position: absolute;right:10px;top:25px;}
+.layui-nav{background: red;}
+#yinying{margin-top:22px;}
+@media screen and (max-width: 1194px) and (min-width: 319px) {
+.indexbox-right{width:100%;}
+.layui-col-md9{width:100%;}
+
+}
+
+
